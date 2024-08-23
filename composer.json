@@ -1,0 +1,20 @@
+{
+    "name": "hafizh-husaini/employees-database",
+    "description": "This web application has a function to take attendance and view attendance data (if logged in as admin)",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "HafizhHusaini\\EmployeesDatabase\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "katou",
+            "email": "153251950+KatouNK@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "vlucas/valitron": "^1.4",
+        "php-di/php-di": "^7.0"
+    }
+}
